@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            Questionario
+        </title>
+        <meta charset="UTF-8"></meta>
+    </head>
+    <body>
+        <section id="Resultado">
+        </section>
+        <script type="text/javascript">
+            nome=prompt("Qual é o seu nome?");
+            idade=parseInt(prompt("Qual sua idade?"));
+            gastoLocomocao = parseFloat(prompt("Qual é o seu gasto diário com locomoção: ")).toFixed(2);
+            tempoExtraclasse = parseFloat(prompt("Qual é o seu tempo semanal de estudo extraclasse? "));
+            tempoLivre = parseFloat(prompt("Qual é o seu tempo semanal livre? "));
+            relacaoTempo = tempoLivre*100/(tempoLivre + tempoExtraclasse);
+            resultado = document.getElementById("Resultado");
+            resultado.innerHTML = "<ol> Dados:";
+            resultado.innerHTML += "<li> Nome: " + nome + "</li>";
+            resultado.innerHTML += "<li> Idade: " + idade + "</li>";
+            resultado.innerHTML += "<li> Gasto diário com locomoção: R$ " + gastoLocomocao + "</li>";
+            resultado.innerHTML += "<li> Tempo semanal em atividades extraclasses: " + tempoExtraclasse.toFixed(1) + "</li>";
+            resultado.innerHTML += "<li> Tempo semanal livre: " + tempoLivre.toFixed(1) + "</li>";
+            resultado.innerHTML += "<li> Relação de tempo livre: " + relacaoTempo.toFixed(1) + "</li>";
+            resultado.innerHTML += "</ol>";
+
+        </script>
+    </body>
+</html>
+

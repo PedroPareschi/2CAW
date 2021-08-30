@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Exemplo de tabela</title>
+    <style>
+        body{
+          background-image:url('hamburguer.jpg'); 
+          background-size: 110px; 
+          font-size:60px; 
+          color:white;
+        }
+        table{
+          width:100%; height:100%; text-align: left;
+        }
+        caption{
+          color:brown;
+        }
+        #lancheTitulo{
+          border-bottom: 10px solid darkorange; 
+          color: darkorange;
+          font-style: italic;
+          font-weight: bold;
+        }
+        .lanche{
+          color: darkorange;
+        }
+        #tamanhoTitulo{
+          border-bottom: 10px solid gray; 
+          color: gray;
+          font-style: italic;
+          font-weight: bold;
+        }
+        .tamanho{
+          color: gray;
+        }
+        #precoTitulo{
+          border-bottom: 10px solid gold; 
+          color: gold;
+          font-style: italic;
+          font-weight: bold;
+        }
+        .preco{
+          color: gold;
+        }
+        #entregaTitulo{
+          border-bottom: 10px solid green; 
+          color: green;
+          font-style: italic;
+          font-weight: bold;
+        }
+        .entregaSim{
+          color: green;
+        }
+        .entregaNao{
+          color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+          <tr> 
+        <caption>HTMLBurger</caption>
+			<th id="lancheTitulo">Lanche</th> 
+			<th id="tamanhoTitulo">Tamanho</th>
+			<th id="precoTitulo">Preço</th>
+			<th id="entregaTitulo">Entrega</th>
+		  </tr>
+          <tr>
+            <td class="lanche">X-tudo</td>
+            <td class="tamanho">200 g</td>
+            <td class="preco">R$ 15</td>
+			      <td class="entregaSim">Sim</td>
+          </tr>
+          <tr>
+            <td class="lanche">X-cheddar</td>
+            <td class="tamanho">150 g</td>
+            <td class="preco">R$ 8</td>
+			      <td class="entregaSim">Sim</td>
+          </tr>
+          <tr>
+            <td class="lanche">Refrigerante</td>
+            <td class="tamanho">300 ml</td>
+            <td class="preco">R$ 5</td>
+			      <td class="entregaSim">Sim</td>
+          </tr>
+		  <tr>
+            <td class="lanche">Batata frita</td>
+            <td class="tamanho">1 porção</td>
+            <td class="preco">R$ 7</td>
+			<td class="entregaNao">Não</td>
+          </tr>
+    </table>
+  </body>
+</html>

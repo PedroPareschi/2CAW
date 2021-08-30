@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name ="author" content="Turma 2CAW 2021/1">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<header>
+				<h1>Forumulario</h1>
+		</header>
+		<form>
+			<fieldset name="userinfo">
+				<legend>Informações do usuário</legend>
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" size="40"><br>
+				<label for="address">Endereço</label>
+				<input type="text" name="endereco" size="40"><br>
+				<label for="phone">Phone</label>
+				<input type="text" name="phone" size="40">
+			</fieldset>
+			<fieldset name="compras_cores">
+				<legend>Compras e Cores</legend>
+				Marque os produtos que costuma comprar: <br>
+				<input type="checkbox" name="compra"
+				value="comida" checked>Comida<br>
+				<input type="checkbox" name="compra"
+				value="eletrod">Eletrodomesticos<br>
+				<input type="checkbox" name="compra"
+				value="roupas">Roupas<br>
+				<input type="checkbox" name="compra"
+				value="higiene">Produtos de higiene<br>
+				Marque uma opção - sua cor favorita é><br>
+				<input type="radio" name="cor" value="preto">Preto<br>
+				<input type="radio" name="cor" value="rosa">Rosa<br>
+				<input type="radio" name="cor" value="verde">Verde<br>
+			</fieldset><br>
+			<fieldset name="profissoes">
+				<select name="profissao">
+					<option value="advogado">advogado</option>
+					<option value="professor">professor</option>
+					<option value="medico">medico</option>
+					<option value="cozinheiro">cozinheiro</option>
+			<button type="text" value="submit">Submit</button>
+			<button type="text" value="reset">Reset</button>	
+		</form>
+	</body>
+</html>

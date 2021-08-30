@@ -1,0 +1,118 @@
+<!--   
+  
+=> Entrega individual
+=> Obrigatório uso de modelo de nomenclatura do arquivo: nome_matricula_2CAW.html
+=> Caso seja necessário envio de imagens ou outras mídias, compactar antes de enviar
+=> Proibido uso de css e javascript externo da W3C
+
+1) Crie uma página em HTML que permita que um usuário entre com dois números e escolha uma operação a realizar com esses números. Obrigatório implementar 2 operações no mínimo. Será avaliado o código javascript, a apresentação da página (CSS) e a estrutura do HTML.
+
+
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TouchATech Maliarte</title>
+    <style>
+       
+        *
+        {
+            padding: 0; margin: 0;
+        }
+        #viewport
+        {
+            border:solid gray;
+            background-color:black;
+            height: 800px;
+            width: 800px;
+        }
+        #chipSet-blue
+        {   margin-left: 100px;
+            margin-right: 100px;
+            background-color:rgb(0, 162, 255);
+            height:300px;
+            width: 600px;
+        }
+        #chipSet-gray
+        {
+            background-color:rgb(167, 165, 165);
+            height:900px;
+            width:150px;
+            margin-left: 300px; 
+            margin-right: 500px;
+            margin-top: -900px;
+        }
+        #chipSet-blue-footer
+        {
+            background-color:rgb(0, 162, 255);
+            height: 100px;
+            width: 600px;
+            margin-top: 400px;
+            margin-left: 100px;
+        }
+/*
+It is dynamic in that the html and the body elements will expand automatically if their contents overflow. I tested this in the latest version of Firefox, Chrome, and IE 11.
+
+See the full fiddle here (for you table haters out there, you can always change it to use a div):*/
+    </style>
+     
+    
+</head>
+<body>
+    <script type="text/javascript">
+        {
+            var n1, n2;
+
+            n1 = prompt("Entre com um numero:");
+
+            n2 = prompt("Entre com um numero:");
+
+            /// alert('Escolha uma operação a ser realizada com os numeros fornecidos:'):
+            1.soma
+            2.subtracao
+            3.multiplicacao
+            4.divisao
+
+            /// if(operacao == 1) {
+
+                n1+n2;
+            } if(operacao == 2) {
+                n1-n2;
+            } if (operacao ==3) {
+                n1*n2;
+            }else(operacao==4){
+                n1/n2
+            }
+        </script>
+
+    <div id="viewport">
+        <div id="chipSet-blue">
+
+
+        </div>
+        <div id="chipSet-gray">
+           
+
+        </div>
+        <div id="chipSet-blue-footer">
+
+
+        </div>
+        
+        
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

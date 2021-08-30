@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lâmpada</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: rgb(103, 106, 113);
+            }
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 20%;
+                width: 20%;
+            }
+        </style>
+        <script>
+            function ligar(x){
+                x.src = "ligada.png";
+                x.alt = "Ligada";
+                document.body.style.backgroundColor = "white";
+            }
+            function desligar(x){
+                x.src = "desligada.png";
+                x.alt = "Desligada";
+                document.body.style.backgroundColor = "rgb(103, 106, 113)";
+            }
+        </script>
+    </head>
+    <body>
+        <img id= "lampada" src="desligada.png" alt="Desligada" onmouseover="ligar(this)" onmouseout="desligar(this)">
+    </body>
+</html>

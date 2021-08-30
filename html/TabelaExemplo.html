@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Novo exemplo de tabela</title>
+        <style>
+            body{
+                font-family: 'Arial';
+            }
+            table{
+                width:25%; 
+                height:25%; 
+                text-align: center;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            caption{
+                background-color:#3ba4c4;
+                font-weight: bold;
+            }
+            th{
+                background-color:#8cc9dc;
+            }
+            .odd{
+                background-color:#d7ebf2;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h4>Tabela 1 - Exemplo</h4>
+         </header>
+        <table>
+            <tr>
+                <caption>Tabela B</caption>
+                <th>Indivíduo</th>
+                <th>X: Massa Corporal (kg)</th>
+                <th>Y: Consumo anual de água(L)</th>
+            <tr class="odd">
+                <td>1</td>
+                <td>90</td>
+                <td>850</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>120</td>
+                <td>400</td>
+            </tr>
+            <tr class="odd">
+                <td>3</td>
+                <td>60</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>40</td>
+                <td>550</td>
+            </tr>
+            <tr class="odd">
+                <td>5</td>
+                <td>82</td>
+                <td>490</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>90</td>
+                <td>350</td>
+            </tr>
+        </table>
+        <footer>
+            <h4>Fonte: nome da fonte, 2017</h4>
+        </footer>
+    </body>
+</html>

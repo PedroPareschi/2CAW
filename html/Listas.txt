@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Listas de filmes</title>
+	</head>
+	<body>
+		<header>
+			<hgroup>Listas de Filmes para assistir em 2021</hgroup>
+		</header>
+		<ol>Lista ed filmes do Oscar type="I"
+			<li>Meu Pai</li>
+			<li>Judas e o Messias Negro</li>
+			<li>Mank</li>
+			<li>Minari</li>
+			<li>Nomadland</li>
+			<li>Bela Vingança</li>
+			<li>O Som do Silêncio</li>
+			<li>Os 7 de Chicago</li>
+		</ol>
+	</body>
+</html>
+	

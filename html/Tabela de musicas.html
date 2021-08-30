@@ -1,0 +1,39 @@
+<!-- 1) Monte uma página que apresente uma tabela sobre estilos de música e alguns
+representantes dos estilos selecionados.
+Em pelo menos um representante, deve haver um vídeo (Vídeo do YouTube –
+orientações de como usar em https://www.w3schools.com/html/html_youtube.asp)
+2) Usando uma das páginas construídas até o momento, insira alguns elementos de
+estilo (borda, formatação, cor)
+Orientações: • https://www.w3schools.com/html/html_tables.asp
+• https://www.w3schools.com/html/html_styles.asp -->
+
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+			<title>Estilos de música</title>
+	</head>
+	<body style="background-color:black; color:white">
+		<h1 style="text-align:center">Estilos Musicais</h1>
+		<p> Pequena lista de estilos musicais e alguns exemplos de vídeos no youtube </p>
+		<p>
+			<table style="width:100%; height:100%; text-align: center; border-collapse: collapse; font-size: 20px">
+				<tr>
+					<th style="border: 5px solid white">Estilos</th>
+					<th colspan=3 scope= "colgroup" style="border: 5px solid white">Exemplos</th>
+				</tr>
+				<tr>
+					<td style="border: 5px solid white">Clássica</td>
+					<td style="border: 5px solid white">Acordai, chama-nos a voz - Bach<iframe width="560" height="315" src="https://www.youtube.com/embed/IIOH2sCW13U" title="Bach - sleepers wake"allowfullscreen></iframe></td>
+					<td style="border: 5px solid white">Rapsódia Húngara número 2 - Franz Liszt<iframe width="560" height="315" src="https://www.youtube.com/embed/LdH1hSWGFGU" title="Hungarian Rhapsody N. 2" allowfullscreen></iframe></td>
+					<td style="border: 5px solid white">Canône - Pachelbel<iframe width="560" height="315" src="https://www.youtube.com/embed/FmmiZ4Lk-tA" title="Hungarian Rhapsody N. 2" allowfullscreen></iframe></td>
+				</tr>
+				<tr>
+					<td style="border: 5px solid white">Trilha Sonora</td>
+					<td style="border: 5px solid white">Êxtase de Ouro - Ennio Morricone<iframe width="560" height="315" src="https://www.youtube.com/embed/ubVc2MQwMkg?start=46" title="extase de ouro"allowfullscreen></iframe></td>
+					<td style="border: 5px solid white">Miserlou - Dick Dale & His Del-Tones<iframe width="560" height="315" src="https://www.youtube.com/embed/1hLIXrlpRe8" title="miserlou" allowfullscreen></iframe></td>
+					<td style="border: 5px solid white">Halloween - John Carpenter<iframe width="560" height="315" src="https://www.youtube.com/embed/lNMIlubmwOQ" title="halloween" allowfullscreen></iframe></td>
+				</tr>
+			</table>
+		</p>
+	</body>
+</html>
